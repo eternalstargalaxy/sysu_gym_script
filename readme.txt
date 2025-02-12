@@ -1,6 +1,6 @@
-中山大学体育馆自动预约
+中山大学体育馆自动预约python程序
 
-0.[vertifypic文件夹和.idea文件夹不要删]
+操作步骤如下：
 
 1.安装依赖库文件，在编译器的terminal终端输入下面的代码+回车
 pip3 install -r requirements.txt
