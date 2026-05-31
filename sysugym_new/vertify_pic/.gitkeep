@@ -1,0 +1,2 @@
+# 运行时验证码截图会保存到此目录（page_screenshot_*.png / *_vertify_code_*.jpg）。
+# 程序不会自动创建该目录，故用本文件占位以保证目录存在；生成的图片已被 .gitignore 忽略。

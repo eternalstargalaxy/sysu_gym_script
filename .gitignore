@@ -1,0 +1,38 @@
+# ===== Chrome driver =====
+# 不再随仓库附带 chromedriver（体积大且与本机 Chrome 版本强绑定，很快过期）。
+# 请按自己的 Chrome 版本到 https://googlechromelabs.github.io/chrome-for-testing/ 下载，
+# 解压后将 chromedriver-win32/ 放到仓库根目录（与 sysugym_new/ 同级）。
+chromedriver-win32/
+chromedriver-*/
+chromedriver.exe
+
+# ===== 运行时生成的验证码截图（保留目录、忽略内容）=====
+sysugym_new/vertify_pic/*
+!sysugym_new/vertify_pic/.gitkeep
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# 日志（main.log 等）
+*.log
+
+# 虚拟环境
+.env
+.venv
+env/
+venv/
+ENV/
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
